@@ -19,8 +19,8 @@ align-items: center;
   background-color: #462e1a;
   border-radius: 10px;
   width: 270px;
-  height: 260px;
-  padding: 35px;
+  height: 250px;
+  padding: 32px;
 }
 /*largura e altura da caixa da divlogin*/
 
@@ -43,7 +43,7 @@ align-items: center;
 /*espaçamento entre os inputs*/
 #login img{
   margin-left: 20px;
-  width: 75px;
+  width: 65px;
   height: auto;
 }
 #login h1{
@@ -77,5 +77,5 @@ p{
 a{
 color: #995000;
 text-decoration: none;
-margin-left: 5px;
+margin-left: 3px;
 }
