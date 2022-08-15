@@ -16,7 +16,7 @@ align-items: center;
   display: flex;
   flex-direction: column;/*logo fica em logo coluna*/
   align-items: center;
-  background-color: #8a5123;
+  background-color: #462e1a;
   border-radius: 10px;
   width: 350px;
   height: 320px;
@@ -32,13 +32,13 @@ align-items: center;
 
 #login input{
   margin-top: 10px;
-  background-color: #fffad5;
+  background-color: #b98554;
   padding-left: 10px;
   border: none;
   height: 45px;
   outline: none;
   border-radius: 8px;
-  color: black;
+  color: whitesmoke;
 }
 /*espaçamento entre os inputs*/
 #login img{
@@ -52,17 +52,17 @@ align-items: center;
 }
 
 h1 span{
-  color: #fffad5;
+  color: #b98554;
 }
 
 input::placeholder{
-  color: black;
+  color: whitesmoke;
   font-size: 14px;
 }
 
 input#entrar{
   display: block;
-  background-color: #462e1a;
+  background-color: #8a5123;
   font-size: 15px;
 
   font-weight: bold;
