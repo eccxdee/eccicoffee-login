@@ -1,0 +1,81 @@
+body{
+  background-color: #fffad5;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+#area-login{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+/*centralizando*/
+
+#login{
+  display: flex;
+  flex-direction: column;/*logo fica em logo coluna*/
+  align-items: center;
+  background-color: #8a5123;
+  border-radius: 10px;
+  width: 350px;
+  height: 320px;
+  padding: 35px;
+}
+/*largura e altura da caixa da divlogin*/
+
+#login form {
+  display: flex;
+  width: 100%;
+  flex-direction: column; /*input abaixo do outro*/
+}
+
+#login input{
+  margin-top: 10px;
+  background-color: #fffad5;
+  padding-left: 10px;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 8px;
+  color: black;
+}
+/*espaçamento entre os inputs*/
+#login img{
+  margin-left: 20px;
+  width: 65px;
+  height: auto;
+}
+#login h1{
+  color: black;
+  margin: center;
+}
+
+h1 span{
+  color: #fffad5;
+}
+
+input::placeholder{
+  color: black;
+  font-size: 14px;
+}
+
+input#entrar{
+  display: block;
+  background-color: #462e1a;
+  font-size: 15px;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p{
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+
+a{
+color: #995000;
+text-decoration: none;
+margin-left: 5px;
+}
