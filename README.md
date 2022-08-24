@@ -14,6 +14,6 @@
 
 ## funcionalidade
 
-### efetuar cadastro dos clientes no site. 
-### ainda sem autenticação de cadastro/login para um possível serviço de delivery.
+- efetuar cadastro dos clientes no site. 
+- ainda sem autenticação de cadastro/login para um possível serviço de delivery.
 
